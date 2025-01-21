@@ -1,15 +1,23 @@
 ## Abstract
 <!-- Context      -->
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Semantic Web and Knowledge Graph technologies have undoubtedly had a tremendous impact on today's world.
+While academia and industry are both highly active in this field,
+there is often a disconnect between these two worlds.
 <!-- Need         -->
-Vestibulum finibus dignissim augue, id pellentesque est facilisis non.
+As such, there is a need to bring these two worlds together.
 <!-- Task         -->
-Donec fringilla dolor non neque iaculis blandit.
+The goal of this workshop is to **provide a bridge between academia and industry in the form of a *developers workshop***.
 <!-- Object       -->
-Praesent aliquet eleifend iaculis.
+In this workshop, we invite developers of both worlds to present and discuss their software.
+Furthermore, by bringing people from academia and industry physically together,
+this workshop will provide a discussion ground for identifying open problems that are relevant to both sides.
 <!-- Findings     -->
-Quisque pellentesque at odio ac bibendum.
+Besides putting a spotlight on Semantic Web software,
+the workshop aims to pinpoint opportunities for future research and implementations.
 <!-- Conclusion   -->
-Pellentesque imperdiet felis urna, quis facilisis lacus gravida non.
+This workshop is the spiritual successor to the highly-popular Developers Workshop
+that was organized at ESWC and ISWC between 2015 and 2016.
 <!-- Perspectives -->
-Donec quis lectus eget sem tempor tristique pellentesque in dolor.
+
+
+**Workshop type: novel**

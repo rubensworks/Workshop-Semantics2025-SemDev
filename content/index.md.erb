@@ -1,21 +1,34 @@
 ---
-title: "My Awesome Article"
+title: "Semantic Web Developers Workshop (SemDev)"
 ---
 <header markdown="1">
 # <%= @item[:title] %>
 
 {:#authors}
-- <%= person 'John Doe', 'http://www.example.org/', 'http://www.example.org/#me' %>
+- <%= person 'Ruben Taelman', 'https://www.rubensworks.net/', 'https://www.rubensworks.net/#me' %>[<sup>1</sup>](#idlab)
+- <%= person 'Jindřich Mynarz', 'https://mynarz.net/', 'https://mynarz.net/#jindrich' %>[<sup>2</sup>](#prague)
 
 {:#affiliations}
-- {:#myaffiliation} Awesome Inc.
+- <sup>1</sup>{:#idlab} IDLab,
+            Department of Electronics and Information Systems,
+            Ghent University – imec, Ghent, Belgium
+			<br />E-mail: ruben.taelman@ugent.be
+- <sup>2</sup>{:#prague} Department of Information and Knowledge Engineering,
+             Prague University of Economics and Business, Prague, Czech Republic
+			 <br />E-mail: mynarzjindrich@gmail.com
 
 <%= section 'abstract' %>
 </header>
 
 <main>
-  <!-- Add sections by specifying their file name, excluding the '.md' suffix. -->
-  <%= section 'introduction' %>
+  <%= section 'topics' %>
+  <%= section 'motivation' %>
+  <%= section 'audience' %>
+  <%= section 'format' %>
+  <%= section 'review' %>
+  <%= section 'publication' %>
+  <%= section 'chairs' %>
+  <%= section 'committee' %>
 </main>
 
 <footer></footer>
