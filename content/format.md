@@ -4,9 +4,7 @@
 <!-- The intended mix of events, such as paper presentations, invited talks, panels, demos, and general discussion (either a tentative tabular schedule or a one paragraph summary).
 We welcome workshops with an innovative structure and a diverse programme that attracts various types of contributions and ensures rich interactions. -->
 
-**Proposed Length: Full-day**
-
-Besides standard projectors, this workshop has no additional organizational requirements.
+Besides standard projectors, this workshop will require booths or tables for demos in the afternoon.
 
 This workshop will invite three types of contributions:
 
@@ -18,4 +16,7 @@ While we allow PDF submissions for short papers, alternative formats are also al
 
 In the morning, we will have an invited talk (from Hannah Bast on the QLever SPARQL engine, pending invitation).
 Afterwards, accepted software talks will be presented.
-In the afternoon, accepted software demos will be held, followed by the accepted discussion topics.
+In the afternoon, the workshop will be more focused towards open discussions and interaction.
+During this time, accepted software demos will be held in parallel with the accepted discussion topics.
+Depending on the number of discussion topics, we will split the group into breakout sessions.
+Each software demos will have a dedicated booth which the workshop participants can visit during or in-between the breakout sessions

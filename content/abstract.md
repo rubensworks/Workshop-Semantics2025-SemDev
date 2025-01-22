@@ -20,4 +20,6 @@ that was organized at ESWC and ISWC between 2015 and 2016.
 <!-- Perspectives -->
 
 
-**Workshop type: novel**
+**Workshop type: Novel**
+
+**Proposed Length: Full-day**
