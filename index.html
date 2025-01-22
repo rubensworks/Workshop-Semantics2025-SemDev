@@ -2,46 +2,61 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta charset="utf-8" />
-  <title property="foaf:name schema:name">My Awesome Article</title>
+  <title property="foaf:name schema:name">Developers Workshop (SemDev)</title>
   <link rel="stylesheet" media="screen" href="styles/screen.css" />
   <link rel="stylesheet" media="print"  href="styles/print.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
-  <meta name="citation_title" content="My Awesome Article">
-  <meta name="citation_author" content="John Doe" />
+  <meta name="citation_title" content="Developers Workshop (SemDev)">
+  <meta name="citation_author" content="Ruben Taelman" />
+  <meta name="citation_author" content="Jindřich Mynarz" />
   
-  <meta name="citation_publication_date" content="2025/01/21" />
+  <meta name="citation_publication_date" content="2025/01/22" />
 </head>
 
 <body prefix="dctypes: http://purl.org/dc/dcmitype/ pimspace: http://www.w3.org/ns/pim/space# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# biblio: http://purl.org/net/biblio# bibo: http://purl.org/ontology/bibo/ book: http://purl.org/NET/book/vocab# ov: http://open.vocab.org/terms/ doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio# lsc: http://linkedscience.org/lsc/ns#" typeof="schema:CreativeWork sioc:Post prov:Entity lsc:Research">
   <header>
-  <h1 id="my-awesome-article">My Awesome Article</h1>
+  <h1 id="developers-workshop-semdev">Developers Workshop (SemDev)</h1>
 
   <ul id="authors">
-    <li><a rev="lsc:participatesIn" property="foaf:maker schema:creator schema:author schema:publisher" href="http://www.example.org/" typeof="foaf:Person schema:Person" resource="http://www.example.org/#me">John Doe</a></li>
+    <li><a rev="lsc:participatesIn" property="foaf:maker schema:creator schema:author schema:publisher" href="https://www.rubensworks.net/" typeof="foaf:Person schema:Person" resource="https://www.rubensworks.net/#me">Ruben Taelman</a><a href="#idlab"><sup>1</sup></a></li>
+    <li><a rev="lsc:participatesIn" property="foaf:maker schema:creator schema:author schema:publisher" href="https://mynarz.net/" typeof="foaf:Person schema:Person" resource="https://mynarz.net/#jindrich">Jindřich Mynarz</a><a href="#prague"><sup>2</sup></a></li>
   </ul>
 
   <ul id="affiliations">
-    <li id="myaffiliation">Awesome Inc.</li>
+    <li><sup id="idlab">1</sup> IDLab,
+          Department of Electronics and Information Systems,
+          Ghent University – imec, Ghent, Belgium
+          <br />E-mail: ruben.taelman@ugent.be</li>
+    <li><sup id="prague">2</sup> Department of Information and Knowledge Engineering,
+           Prague University of Economics and Business, Prague, Czech Republic
+           <br />E-mail: mynarzjindrich@gmail.com</li>
   </ul>
 
   <section id="abstract" inlist="" rel="schema:hasPart" resource="#abstract">
 <div datatype="rdf:HTML" property="schema:description">
       <h2 property="schema:name">Abstract</h2>
       <!-- Context      -->
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      <p>Semantic Web and Knowledge Graph technologies have undoubtedly had a tremendous impact on today’s world.
+While academia and industry are both highly active in this field,
+there is often a disconnect between these two worlds.
 <!-- Need         -->
-Vestibulum finibus dignissim augue, id pellentesque est facilisis non.
+As such, there is a need to bring these two worlds together.
 <!-- Task         -->
-Donec fringilla dolor non neque iaculis blandit.
+The goal of this workshop is to <strong>provide a bridge between academia and industry in the form of a <em>developers workshop</em></strong>.
 <!-- Object       -->
-Praesent aliquet eleifend iaculis.
+In this workshop, we invite developers of both worlds to present and discuss their software.
+Furthermore, by bringing people from academia and industry physically together,
+this workshop will provide a discussion ground for identifying open problems that are relevant to both sides.
 <!-- Findings     -->
-Quisque pellentesque at odio ac bibendum.
+Besides putting a spotlight on Semantic Web software,
+the workshop aims to pinpoint opportunities for future research and implementations.
 <!-- Conclusion   -->
-Pellentesque imperdiet felis urna, quis facilisis lacus gravida non.
-<!-- Perspectives -->
-Donec quis lectus eget sem tempor tristique pellentesque in dolor.</p>
+This workshop is the spiritual successor to the highly-popular Developers Workshop
+that was organized at ESWC and ISWC between 2015 and 2016.
+<!-- Perspectives --></p>
+
+      <p><strong>Workshop type: novel</strong></p>
 
     </div>
 </section>
@@ -49,17 +64,155 @@ Donec quis lectus eget sem tempor tristique pellentesque in dolor.</p>
 </header>
 
 <main>
-  <!-- Add sections by specifying their file name, excluding the '.md' suffix. -->
-  <section id="introduction" inlist="" rel="schema:hasPart" resource="#introduction">
+  <section id="topics" inlist="" rel="schema:hasPart" resource="#topics">
 <div datatype="rdf:HTML" property="schema:description">
-      <h2 property="schema:name">Introduction</h2>
+      <h2 property="schema:name">Topics</h2>
 
-      <p>This is a great article on the Semantic Web <span class="references">[<a href="#ref-1">1</a>]</span>, written in Markdown.</p>
+      <!-- What topics of interest will be covered by the workshop
+Proposed workshops should have a core theme that is much more selective than the broader scope of the main conference.
+We may reject or propose to merge workshops that overlap significantly with other workshops in terms of theme. -->
 
-      <p>Make sure to <a href="https://www.principiae.be/book/pdfs/TM&amp;Th-2.0-summary.pdf">write your document effectively</a>!</p>
+      <p>The core theme of this workshop concerns <strong>development efforts related to the Semantic Web, Knowledge Graphs, and Linked Data</strong>.
+An orthogonal goal is to <strong>connect academia and industry</strong> through these collective development efforts.
+Possible contributions include the following:</p>
 
-      <p class="todo">Write proper introduction.
-More information on snippets like this can be found on the <a href="https://github.com/rubensworks/ScholarMarkdown/wiki/Snippets">ScholarMarkdown wiki</a>.</p>
+      <ul>
+        <li>Web applications</li>
+        <li>Web APIs</li>
+        <li>browser extensions</li>
+        <li>libraries (client-side or server-side)</li>
+        <li>visualizations</li>
+        <li>user interfaces</li>
+        <li>end-user tools</li>
+        <li>development tools</li>
+        <li>data or ontology processors</li>
+        <li>application development (query engines, processors, reasoners, …)</li>
+        <li>…</li>
+      </ul>
+
+    </div>
+</section>
+
+  <section id="motivation" inlist="" rel="schema:hasPart" resource="#motivation">
+<div datatype="rdf:HTML" property="schema:description">
+      <h2 property="schema:name">Motivation</h2>
+
+      <!-- Why is the topic timely and of particular interest to ISWC participants? -->
+
+      <p>The interplay between academia and industry is bidirectional.
+Industry informs academics about real-world problems that require novel solutions.
+Academics can then design novel algorithms as solutions,
+which they evaluate based on software prototypes.
+These research outcomes can then be picked up by industry,
+and become implemented in commercial products and services.</p>
+
+      <p>In practise, this interplay unfortunately does not flow as smooth as theorized.
+First, problems in industry do not always become apparent to the research community.
+This can cause real-world problems to not get picked up by researchers,
+or researchers coming up with <a property="schema:citation http://purl.org/spar/cito/cites" href="https://ruben.verborgh.org/articles/the-semantic-web-identity-crisis/">solutions for which no real problem exists</a> <span class="references">[<a href="#ref-1">1</a>]</span>.
+Second, the research outcomes that academics consider finished may still <a property="schema:citation http://purl.org/spar/cito/cites" href="https://www.youtube.com/watch?v=4HqbAY1s0e0&amp;t=3409s">not be practical enough to be useful in industry</a> <span class="references">[<a href="#ref-2">2</a>]</span>.
+Moving from a research prototype towards a technical-ready implementation can still require non-trivial problems to be solved,
+which can require additional research.</p>
+
+      <p>As such, there is a need for a common ground where academics and companies can discuss real-world problems,
+and gaps between research prototypes and technical-ready products.
+This workshop aims to fill this need, and is therefore relevant for researchers and industrial partners.</p>
+
+    </div>
+</section>
+
+  <section id="audience" inlist="" rel="schema:hasPart" resource="#audience">
+<div datatype="rdf:HTML" property="schema:description">
+      <h2 property="schema:name">Audience and Community</h2>
+
+      <!-- Who and how many people are likely to attend? Demonstrate that there is an existing community interested in the topic, e.g., by providing references for recent papers related to the core topic of the workshop and/or a discussion of why the workshop would attract submissions. -->
+
+      <p>The Developers Workshop from 2015-2016 was popular, and attracted more than 70 participants during the conference.
+The <a href="https://eswc2015.semdev.org/program/">2015 edition at ESWC</a> had 15 accepted software presentations and 5 interactive discussions.
+Given that no workshops with a similar focus have been organized at ISWC and ESWC for nearly ten years,
+we foresee a high interest with novel software that accumulated during these years that are not ready for the ISWC resources track,
+but would be relevant in a more focussed format at this developers workshop.</p>
+
+    </div>
+</section>
+
+  <section id="format" inlist="" rel="schema:hasPart" resource="#format">
+<div datatype="rdf:HTML" property="schema:description">
+      <h2 property="schema:name">Workshop Format</h2>
+
+      <!-- The intended mix of events, such as paper presentations, invited talks, panels, demos, and general discussion (either a tentative tabular schedule or a one paragraph summary).
+We welcome workshops with an innovative structure and a diverse programme that attracts various types of contributions and ensures rich interactions. -->
+
+      <p><strong>Proposed Length: Full-day</strong></p>
+
+      <p>This workshop will invite three types of contributions:</p>
+
+      <ol>
+        <li><strong>Software talk</strong>: Participants can submit a short paper (5-6 pages, or ~2,000 words) they can present and (optionally) demonstrate at the workshop.</li>
+        <li><strong>Software demo</strong>: Participants can submit a link to a software repository (that has a README) they can demonstrate at the workshop.</li>
+        <li><strong>Discussion topic</strong>: Participants can submit an abstract (short paragraph) to propose an interactive discussion topic.</li>
+      </ol>
+
+      <p>While we allow PDF submissions for short papers, alternative formats are also allowed, including self-hosted HTML pages.</p>
+
+      <p>In the morning, we will have an invited talk (from Hannah Bast on the QLever SPARQL engine, pending invitation).
+Afterwards, accepted software talks will be presented.
+In the afternoon, accepted software demos will be held, followed by the accepted discussion topics.</p>
+
+    </div>
+</section>
+
+  <section id="review" inlist="" rel="schema:hasPart" resource="#review">
+<div datatype="rdf:HTML" property="schema:description">
+      <h2 property="schema:name">Review Policy</h2>
+
+      <!-- If contributions will be peer-reviewed, whether, e.g. open review, double anonymous review, or single anonymous review will be used. -->
+
+      <p>All contributions (talks, demos, topics) will be peer-reviewed by members of the program committee.
+To foster continued discussions after the review round with program committee members,
+we will follow a fully open review policy through <a href="https://openreview.net/" class="mandatory" data-link-text="https:/​/​openreview.net/​">OpenReview</a>.</p>
+
+    </div>
+</section>
+
+  <section id="publication" inlist="" rel="schema:hasPart" resource="#publication">
+<div datatype="rdf:HTML" property="schema:description">
+      <h2 property="schema:name">Publication Policy</h2>
+
+      <!-- The plans for preserving the workshop’s outcome, e.g., publication of workshop papers in an online repository like CEUR, invitation of selected papers to a journal special issue, etc. -->
+
+      <p>We will publish proceedings of the workshop at <a href="https://ceur-ws.org/" class="mandatory" data-link-text="https:/​/​ceur-​ws.org/​">CEUR</a>.
+This will include the short papers submitted as software talks.
+Submissions as software demo and discussion topic will be invited to optionally write a paper of at least five pages (requirement of CEUR) for inclusion in the proceedings.</p>
+
+    </div>
+</section>
+
+  <section id="chairs" inlist="" rel="schema:hasPart" resource="#chairs">
+<div datatype="rdf:HTML" property="schema:description">
+      <h2 property="schema:name">Chairs</h2>
+
+      <!-- Name, affiliation, email address, homepage, and short (one paragraph) biography of each chair, explaining the chair’s expertise in the workshop topic and experience in organising relevant events.
+We strongly advise having more than one chair, preferably from different institutions, bringing different perspectives to the workshop topic, ideally with a mix of both junior and senior researchers. We also strongly advise having a maximum of five workshop organisers. -->
+
+      <p><a href="https://www.rubensworks.net/" class="mandatory" data-link-text="https:/​/​www.rubensworks.net/​"><strong>Ruben Taelman</strong></a> (ruben.taelman@ugent.be) is a postdoctoral researcher at IDLab, imec, Ghent University with a focus on investigating decentralized Web querying and publication techniques for Linked Data.
+To support his research, he develops various open source JavaScript libraries such as streaming RDF parsers and the Comunica engine to query Linked Data on the Web.
+He co-organized 1 workshop and 4 tutorials at Semantic Web conferences, and is co-lecturer for the Web Development course at Ghent University.</p>
+
+      <p class="todo">Add bio Jindrich</p>
+    </div>
+</section>
+
+  <section id="committee" inlist="" rel="schema:hasPart" resource="#committee">
+<div datatype="rdf:HTML" property="schema:description">
+      <h2 property="schema:name">Program Committee</h2>
+
+      <!-- Names and affiliations of potential PC members (at least 50% of PC members should have been confirmed)
+We strongly encourage the workshop organisers to strive for gender, location, and institution diversity in the organisation and program committee, as well as efforts to broaden the participation of underrepresented and underserved minority groups. -->
+
+      <p>We invite committee members from both industry and academia.</p>
+
+      <p class="todo">Fill in based on spreadsheet</p>
 
     </div>
 </section>
@@ -70,7 +223,9 @@ More information on snippets like this can be found on the <a href="https://gith
 <h2 id="references">References</h2>
 <dl class="references">
   <dt id="ref-1">[1]</dt>
-  <dd resource="#semanticweb" typeof="schema:Article">Berners-Lee, T., Hendler, J., Lassila, O., others: The semantic web. Scientific American. 284, 28–37 (2001).</dd>
+  <dd resource="https://ruben.verborgh.org/articles/the-semantic-web-identity-crisis/" typeof="schema:Article">Verborgh, R., Vander Sande, M.: The Semantic Web identity crisis: in search of the trivialities that never were. Semantic Web. 11, 19–27 (2020).</dd>
+  <dt id="ref-2">[2]</dt>
+  <dd resource="https://www.youtube.com/watch?v=4HqbAY1s0e0&amp;t=3409s" typeof="schema:CreativeWork">Bast, H.: The QLever SPARQL Engine. <a href="https://www.youtube.com/watch?v=4HqbAY1s0e0&amp;t=3409s">https:/​/​www.youtube.com/watch?v=4HqbAY1s0e0&amp;t=3409s</a> (2023).</dd>
 </dl>
 </section>
 </footer>
