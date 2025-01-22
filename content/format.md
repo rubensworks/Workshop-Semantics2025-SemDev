@@ -6,6 +6,8 @@ We welcome workshops with an innovative structure and a diverse programme that a
 
 **Proposed Length: Full-day**
 
+Besides standard projectors, this workshop has no additional organizational requirements.
+
 This workshop will invite three types of contributions:
 
 1. **Software talk**: Participants can submit a short paper (5-6 pages, or ~2,000 words) they can present and (optionally) demonstrate at the workshop.
