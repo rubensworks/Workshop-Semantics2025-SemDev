@@ -13,13 +13,10 @@ and become implemented in commercial products and services.
 In practise, this interplay unfortunately does not flow as smooth as theorized.
 First, problems in industry do not always become apparent to the research community.
 This can cause real-world problems to not get picked up by researchers,
-or researchers coming up with solutions for which no real problem exists.
-Second, the research outcomes that academics consider finished may still not be practical enough to be useful in industry.
+or researchers coming up with [solutions for which no real problem exists](cite:cites verborgh2020semantic).
+Second, the research outcomes that academics consider finished may still [not be practical enough to be useful in industry](cite:cites qlever).
 Moving from a research prototype towards a technical-ready implementation can still require non-trivial problems to be solved,
 which can require additional research.
-
-TODO: find citations for researchers looking into non-issues, and the gap between research and industry software!
-{:.todo}
 
 As such, there is a need for a common ground where academics and companies can discuss real-world problems,
 and gaps between research prototypes and technical-ready products.
