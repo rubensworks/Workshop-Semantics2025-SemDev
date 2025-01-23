@@ -10,3 +10,5 @@ He co-organized 1 workshop and 4 tutorials at Semantic Web conferences, and is c
 
 Add bio Jindrich
 {:.todo}
+
+[**Jerven Bolleman**](https://www.sib.swiss/directory/person/jerven-tjalling-bolleman) is the Principal Software Engineer of the Swiss-Prot group at the Swiss Institute of Bioinformatics. He is a co-responsible for managing the RDF representation of UniProt, a core Life-Science resource that hosts more than 210 billion triples in their public [sparql endpoint](https://sparql.uniprot.org/sparql). He also works on the sparql endpoints of [Rhea](https://sparql.rhea-db.org) and [SwissLipids](https://sparql.swisslipids.org). Jerven, commits to RDF4j and fosters community uptake of RDF related standards in the lifesciences. He is also a co-organizer of [SWAT4HCLS](https://www.swat4ls.org)
