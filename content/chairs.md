@@ -8,7 +8,9 @@ We strongly advise having more than one chair, preferably from different institu
 To support his research, he develops various open source JavaScript libraries such as streaming RDF parsers and the Comunica engine to query Linked Data on the Web.
 He co-organized 1 workshop and 4 tutorials at Semantic Web conferences, and is co-lecturer for the Web Development course at Ghent University.
 
-Add bio Jindrich
-{:.todo}
+[**Jindřich Mynarz**](https://mynarz.net/#jindrich) is a data engineering lead at MSD Czech Republic.
+His team supports effective use of data for pharmaceutical research via semantic web technologies, combining both commercial and open source software to build internal knowledge graphs or ontologies.
+Jindřich is an active user and contributor to open source libraries and tools built on semantic web standards.
+He completed a Ph.D. in applied computer science at the Prague University of Economics and Business, where he focused on using linked open data for public procurement.
 
 [**Jerven Bolleman**](https://www.sib.swiss/directory/person/jerven-tjalling-bolleman) is the Principal Software Engineer of the Swiss-Prot group at the Swiss Institute of Bioinformatics. He is a co-responsible for managing the RDF representation of UniProt, a core Life-Science resource that hosts more than 210 billion triples in their public [sparql endpoint](https://sparql.uniprot.org/sparql). He also works on the sparql endpoints of [Rhea](https://sparql.rhea-db.org) and [SwissLipids](https://sparql.swisslipids.org). Jerven, commits to RDF4j and fosters community uptake of RDF related standards in the lifesciences. He is also a co-organizer of [SWAT4HCLS](https://www.swat4ls.org)
