@@ -19,4 +19,5 @@ Possible contributions include the following:
 - development tools
 - data or ontology processors
 - application development (query engines, processors, reasoners, …)
+- implementations of the semantic web standards
 - …
