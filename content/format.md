@@ -13,6 +13,9 @@ This workshop will invite three types of contributions:
 3. **Discussion topic**: Participants can submit an abstract (short paragraph) to propose an interactive discussion topic.
 
 While we allow PDF submissions for short papers, alternative formats are also allowed, including self-hosted HTML pages.
+All accepted submissions will be included or linked to from our website.
+For authors that would like their submission to be included in the published PDF proceedings,
+a PDF meeting the [CEUR](https://ceur-ws.org/) requirements must be provided.
 
 In the morning, we will have an invited talk (from Hannah Bast on the QLever SPARQL engine, pending invitation).
 Afterwards, accepted software talks will be presented.
