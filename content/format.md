@@ -18,5 +18,6 @@ In the morning, we will have an invited talk (from Hannah Bast on the QLever SPA
 Afterwards, accepted software talks will be presented.
 In the afternoon, the workshop will be more focused towards open discussions and interaction.
 During this time, accepted software demos will be held in parallel with the accepted discussion topics.
+We also plan a panel discussion on the topic of bridging academia and industry.
 Depending on the number of discussion topics, we will split the group into breakout sessions.
-Each software demos will have a dedicated booth which the workshop participants can visit during or in-between the breakout sessions
+Each software demos will have a dedicated booth which the workshop participants can visit during or in-between the breakout sessions.
