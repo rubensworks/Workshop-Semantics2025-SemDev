@@ -4,7 +4,7 @@ Semantic Web and Knowledge Graph technologies have undoubtedly had a tremendous 
 While academia and industry are both highly active in this field,
 there is often a disconnect between these two worlds.
 <!-- Need         -->
-As such, there is a need to bring these two worlds together.
+As such, there is a need to bring these two worlds closer together.
 <!-- Task         -->
 The goal of this workshop is to **provide a bridge between academia and industry in the form of a *developers workshop***.
 <!-- Object       -->

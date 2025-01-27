@@ -5,6 +5,7 @@
 We welcome workshops with an innovative structure and a diverse programme that attracts various types of contributions and ensures rich interactions. -->
 
 Besides standard projectors, this workshop will require booths or tables for demos in the afternoon.
+If possible, these booths/tables should be placed outside of the main workshop room.
 
 This workshop will invite three types of contributions:
 

@@ -19,7 +19,7 @@ We invite committee members from both industry and academia:
 - Olaf Hartig (Linköping University, Amazon)
 - Pascal Molli (University of Nantes - LS2N)
 - Peter Haase (metaphacts)
-- Pierre-Antoine Champin (W3c)
+- Pierre-Antoine Champin (W3C)
 - Pieter Colpaert (Ghent University - imec)
 - Richard Cyganiak (TopQuadrant)
 - Thomas Bergwinkl (TopQuadrant)
