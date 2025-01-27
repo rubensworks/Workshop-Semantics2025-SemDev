@@ -8,7 +8,7 @@ Besides standard projectors, this workshop will require booths or tables for dem
 
 This workshop will invite three types of contributions:
 
-1. **Software talk**: Participants can submit a short paper (5-6 pages, or ~2,000 words) they can present and (optionally) demonstrate at the workshop.
+1. **Software talk**: Participants can submit a short paper (5-6 pages, or ~2,000 words) they can present and (optionally) demonstrate at the workshop. We encourage hands-on presentations, such as live-coding.
 2. **Software demo**: Participants can submit a link to a software repository (that has a README) they can demonstrate at the workshop.
 3. **Discussion topic**: Participants can submit an abstract (short paragraph) to propose an interactive discussion topic.
 
