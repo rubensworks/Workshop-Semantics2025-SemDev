@@ -3,7 +3,7 @@
 
 <!-- Why is the topic timely and of particular interest to ISWC participants? -->
 
-The interplay between academia and industry is bidirectional.
+In theory, the interplay between academia and industry is bidirectional.
 Industry informs academics about real-world problems that require novel solutions.
 Academics can then design novel algorithms as solutions,
 which they evaluate based on software prototypes.

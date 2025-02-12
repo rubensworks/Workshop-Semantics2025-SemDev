@@ -13,7 +13,7 @@ This workshop will invite three types of contributions:
 2. **Software demo**: Participants can submit a link to a software repository (that has a README) they can demonstrate at the workshop.
 3. **Discussion topic**: Participants can submit an abstract (short paragraph) to propose an interactive discussion topic.
 
-While we allow PDF submissions for short papers, alternative formats are also allowed, including self-hosted HTML pages.
+While we allow PDF submissions for short papers, alternative formats are also encouraged, including self-hosted HTML pages.
 All accepted submissions will be included or linked to from our website.
 For authors that would like their submission to be included in the published PDF proceedings,
 a PDF meeting the [CEUR](https://ceur-ws.org/) requirements must be provided.
@@ -21,7 +21,7 @@ a PDF meeting the [CEUR](https://ceur-ws.org/) requirements must be provided.
 In the morning, we will have an invited talk (from Hannah Bast on the QLever SPARQL engine, pending invitation).
 Afterwards, accepted software talks will be presented.
 In the afternoon, the workshop will be more focused towards open discussions and interaction.
-During this time, accepted software demos will be held in parallel with the accepted discussion topics.
-We also plan a panel discussion on the topic of bridging academia and industry.
+During this time, accepted software demos (ideally in a separate room or hallway) will be held in parallel with the accepted discussion topics.
+As one discussion topic, we plan a panel discussion on bridging academia and industry.
 Depending on the number of discussion topics, we will split the group into breakout sessions.
-Each software demos will have a dedicated booth which the workshop participants can visit during or in-between the breakout sessions.
+Each software demo will have a dedicated booth which the workshop participants can visit during or in-between the breakout sessions.
