@@ -17,6 +17,7 @@ gem 'latex-decode'
 gem 'unicode_utils'
 gem 'citeproc-ruby', '>= 1.1.6'
 gem 'csl-styles'
+gem 'ffi', '< 1.17.0'
 
 group :development do
   # live view

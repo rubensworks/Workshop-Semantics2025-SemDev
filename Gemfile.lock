@@ -25,21 +25,26 @@ GEM
     colored (1.2)
     concurrent-ruby (1.3.5)
     cri (2.15.12)
-    csl (2.0.0)
-      namae (~> 1.0)
-      rexml
+    csl (2.1.0)
+      forwardable (~> 1.3)
+      namae (~> 1.2)
+      open-uri (< 1.0)
+      rexml (~> 3.0)
+      set (~> 1.1)
+      singleton (< 1.0)
+      time (< 1.0)
     csl-styles (2.0.1)
       csl (~> 2.0)
     date (3.4.1)
     ddmetrics (1.1.0)
     ddplugin (1.0.3)
-    diff-lcs (1.5.1)
+    diff-lcs (1.6.0)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     execjs (2.10.0)
-    ffi (1.17.1)
+    ffi (1.16.3)
     formatador (1.1.0)
     forwardable (1.3.3)
     guard (2.19.1)
@@ -74,7 +79,7 @@ GEM
     immutable-ruby (0.2.0)
       concurrent-ruby (~> 1.1)
       sorted_set (~> 1.0)
-    json (2.9.1)
+    json (2.10.1)
     json_schema (0.21.0)
     katex (0.10.0)
       execjs (~> 2.8)
@@ -84,12 +89,17 @@ GEM
       kramdown (~> 2.0)
       sskatex (>= 0.9.37)
     latex-decode (0.4.0)
+    libv8-node (16.10.0.0)
+    libv8-node (16.10.0.0-aarch64-linux)
+    libv8-node (16.10.0.0-arm64-darwin)
+    libv8-node (16.10.0.0-x86_64-darwin)
     libv8-node (16.10.0.0-x86_64-darwin-19)
     libv8-node (16.10.0.0-x86_64-linux)
+    libv8-node (16.10.0.0-x86_64-linux-musl)
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    logger (1.6.5)
+    logger (1.6.6)
     lumberjack (1.2.10)
     memo_wise (1.10.0)
     method_source (1.1.0)
@@ -98,12 +108,12 @@ GEM
     multi_json (1.15.0)
     namae (1.2.0)
       racc (~> 1.7)
-    nanoc (4.12.21)
+    nanoc (4.13.3)
       addressable (~> 2.5)
       colored (~> 1.2)
       nanoc-checking (~> 1.0, >= 1.0.2)
-      nanoc-cli (= 4.12.21)
-      nanoc-core (= 4.12.21)
+      nanoc-cli (= 4.13.3)
+      nanoc-core (= 4.13.3)
       nanoc-deploying (~> 1.0)
       parallel (~> 1.12)
       tty-command (~> 0.8)
@@ -111,13 +121,13 @@ GEM
     nanoc-checking (1.0.5)
       nanoc-cli (~> 4.12, >= 4.12.5)
       nanoc-core (~> 4.12, >= 4.12.5)
-    nanoc-cli (4.12.21)
+    nanoc-cli (4.13.3)
       cri (~> 2.15)
       diff-lcs (~> 1.3)
-      nanoc-core (= 4.12.21)
+      nanoc-core (= 4.13.3)
       pry
       zeitwerk (~> 2.1)
-    nanoc-core (4.12.21)
+    nanoc-core (4.13.3)
       base64 (~> 0.2)
       concurrent-ruby (~> 1.1)
       ddmetrics (~> 1.0)
@@ -125,7 +135,6 @@ GEM
       immutable-ruby (~> 0.1)
       json_schema (~> 0.19)
       memo_wise (~> 1.5)
-      psych (>= 4.0, < 6.0)
       slow_enumerator_tools (~> 1.0)
       tty-platform (~> 0.2)
       zeitwerk (~> 2.1)
@@ -135,9 +144,21 @@ GEM
       nanoc-core (~> 4.11, >= 4.11.15)
     nenv (0.3.0)
     nio4r (2.7.4)
-    nokogiri (1.15.7-x86_64-darwin)
+    nokogiri (1.18.3-aarch64-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.15.7-x86_64-linux)
+    nokogiri (1.18.3-aarch64-linux-musl)
+      racc (~> 1.4)
+    nokogiri (1.18.3-arm-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.18.3-arm-linux-musl)
+      racc (~> 1.4)
+    nokogiri (1.18.3-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.18.3-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.18.3-x86_64-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.18.3-x86_64-linux-musl)
       racc (~> 1.4)
     notiffany (0.1.3)
       nenv (~> 0.1)
@@ -154,11 +175,8 @@ GEM
     pry (0.15.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    psych (5.2.3)
-      date
-      stringio
-    public_suffix (5.1.1)
-    puma (6.5.0)
+    public_suffix (6.0.1)
+    puma (6.6.0)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.0.9.1)
@@ -171,14 +189,14 @@ GEM
       ffi (~> 1.0)
     rb-readline (0.5.5)
     rbtree (0.4.6)
-    rexml (3.4.0)
+    rexml (3.4.1)
     rubypants (0.7.1)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    scholarmarkdown (3.2.1)
+    scholarmarkdown (3.3.0)
       bibmarkdown (~> 2.0.0)
       bibtex-ruby
       citeproc-ruby (>= 1.1.6)
@@ -192,8 +210,9 @@ GEM
       mini_racer
       puma
       sskatex
-    set (1.0.4)
+    set (1.1.1)
     shellany (0.0.1)
+    singleton (0.3.0)
     slow_enumerator_tools (1.1.0)
     sorted_set (1.0.3)
       rbtree
@@ -202,7 +221,7 @@ GEM
       ffi
     sskatex (0.9.39)
       execjs (~> 2.7)
-    stringio (3.1.2)
+    stringio (3.1.5)
     thor (1.3.2)
     time (0.4.1)
       date
@@ -217,15 +236,25 @@ GEM
       json (>= 1.8)
       nokogiri (~> 1.6)
       rexml (~> 3.2)
-    zeitwerk (2.6.18)
+    zeitwerk (2.7.2)
 
 PLATFORMS
+  aarch64-linux
+  aarch64-linux-gnu
+  aarch64-linux-musl
+  arm-linux-gnu
+  arm-linux-musl
+  arm64-darwin
+  x86_64-darwin
   x86_64-darwin-19
   x86_64-linux
+  x86_64-linux-gnu
+  x86_64-linux-musl
 
 DEPENDENCIES
   citeproc-ruby (>= 1.1.6)
   csl-styles
+  ffi (< 1.17.0)
   guard-livereload
   guard-nanoc (~> 2.1.2)
   guard-rack
@@ -244,4 +273,4 @@ DEPENDENCIES
   w3c_validators (~> 1.3.1)
 
 BUNDLED WITH
-   2.2.28
+   2.5.22
