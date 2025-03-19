@@ -9,3 +9,4 @@ The [2015 Developers Workshop at ESWC](https://eswc2015.semdev.org/){:.mandatory
 Given that no workshops with a similar focus have been organized at ISWC and ESWC for nearly ten years,
 we foresee a high interest with novel software that accumulated during these years that are not ready for the ISWC resources track,
 but would be relevant in a more focussed format at this developers' workshop.
+The workshop will have a low barrier to entry for audience participants, only basic Semantic Web knowledge is required.
